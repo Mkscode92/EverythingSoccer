@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>International Soccer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+    margin-left: -170px;
+}
+.dropdown:hover .content{
+    display: block;
+    
+}
+.dropdown:hover button{
+    background-color: hsl(0, 0%, 70%);
+    background-color: blue;
+}
+.dropdown a:hover{
+    background-color: rgb(61, 53, 53);
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="soccer.html" class="w3-bar-item w3-button">Everything Soccer</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#teams" class="w3-bar-item w3-button">Teams</a>
+      <a href="#players" class="w3-bar-item w3-button">Players</a>
+      <a href="#competitions" class="w3-bar-item w3-button">Competitions</a>
+      <a href="#qualifiers" class="w3-bar-item w3-button">Qualifiers</a>
+      <div class="dropdown">
+        <button style = "margin-left: 10px;">| | |</button>
+        <div class="content">
+            <a href= "club.html">Club Soccer</a>
+            <a href= "international.html">International Soccer</a>
+            <a href="rules.html">Rules of Soccer</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="original.jpg" alt="International Soccer" width="1600" height="800">
+    <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+      <h1 class="w3-xxlarge" style= "color: white;">International Soccer</h1>
+    </div>
+</header>
+
+
+<!--new-->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- about-->
+  <div style = "display: table; clear: both; padding-top: 64px!important; padding-bottom: 64px!important;" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small" style = "width: 50%">
+     <img src="ball.jpg" style = "margin-top: 50px; border-radius: 4px; max-width: 100%; height: auto; box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="ball" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">About</h1>
+      <p class="w3-large">International soccer refers to the professional and organized structure of national soccer teams that compete at various tournaments worldwide. These clubs are independent entities, which represent their country. For example a club team would be "Barcelona FC" while a national team would be "Argentina FC". Instead of being contracted to the club, players are called up to the team's squad by the manager. It is an immense honor to be called up. They do not compete in season long leagues like club soccer, but instead compete in tournaments and qualifiers that happen every so often. Each club has its own management, coaching staff, and infrastructure. They do not sign players, and players are not from different nationalities. Every player for a national team must have the same nationality.</p>
+      
+    </div>
+  </div>
+
+  <!--teams-->
+  <div class="w3-row w3-padding-64" id="teams">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="nations.jpg" class="w3-round w3-image" style = "box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="teams" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">National Soccer Teams</h1>
+      <p class="w3-large">A national soccer club/team consists of players who come together to compete in the sport of soccer, also known as football in many parts of the world. Typically, a team consists of players with various positions such as forwards, midfielders, defenders, and a goalkeeper. They work together to score goals while preventing the opposing team from scoring. In national soccer, these teams represent countries like England, Uruguay, etc. Teams can vary in size, structure, and level of competition. Representing the pride and identity of a nation, national teams bring together players from diverse backgrounds and regions within the country to compete at the highest level on the international stage. They often showcase the unique style, tactics, and footballing culture associated with their country. From top left to bottom right are some prominent national teams: Argentina, France, Portugal, England, Brazil, and Spain.</p>
+    </div>
+  </div>
+
+  <!--players-->
+  <div class="w3-row w3-padding-64" id="players">
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">Soccer Players</h1>
+      <p class="w3-large">Soccer players are athletes who compete in the sport of soccer. They exhibit exceptional physical fitness, technical skills, and tactical understanding of the game. These players specialize in various positions on the field, such as forwards, midfielders, defenders, and goalkeepers, each with unique roles and responsibilities. Soccer players undergo rigorous training to improve their agility, speed, ball control, and decision-making abilities. Many become renowned for their talent, earning global recognition and often playing for prestigious clubs or national teams. The best players often possess a combination of skill, vision, creativity, and teamwork, influencing the outcome of matches and leaving a lasting impact on the sport's history. From top left to bottom right are some prominent national team players: Lionel Messi, Cristiano Ronaldo, Kylian Mbappe, and Neymar Jr.</p>
+    </div>
+    
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="nplayers.jpg" class="w3-round w3-image" style = "box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="players" width="600" height="750">
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64" id="competitions">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="ncompete.jpg" class="w3-round w3-image" style = "margin-top: 40px; box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="competitions" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">National Competitions</h1>
+      <p class="w3-large">International soccer competitions refer to tournaments organized for professional national teams to compete against each other. There are many national competitions, but here are the most famous and largest ones. FIFA World Cup: held every four years, the FIFA World Cup is the pinnacle of international soccer. National teams from around the world compete in a tournament that culminates in a final to determine the world champion. The stars on a team's crest represent their number of world cup wins. UEFA Euros: this tournament is held every four years and features European national teams competing for the continental championship. CONMEBOL Copa America: the oldest international soccer tournament, Copa America is held every few years among South American national teams. It's one of the most prestigious competitions in the region. CONCACAF Gold Cup: Held every two years, this tournament features national teams from North America, Central America, and the Caribbean competing for the CONCACAF championship. African Cup of Nations: Held every two years, this tournament gathers African national teams to compete for the continental championship.</p>
+    </div>
+  </div>
+
+  <!--timeline-->
+  <div class="w3-row w3-padding-64" id="qualifiers">
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">Tournament Qualifiers</h1>
+      <p class="w3-large">Tournaments like the FIFA World Cup and continental championships such as the UEFA European Championship and the Copa America have intense qualifying rounds. These teams are assigned to a group out of multiple groups in their respective tournament that they are attempting to qualify for. They go against one another in their group in a series of matches to secure a spot in the final tournament. They follow the same point style of league games, where a win is 3 points, a draw is 1 point, and a loss is 0 points. In the european qualifiers for example, the two teams with the most points in each group qualify for the Euros. The drama and passion in these qualifiers often make for some unforgettable moments, as nations fight for the chance to represent their country on the world stage. The stakes are high, and every match brings its own suspense and thrill.</p>
+    </div>
+    
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="qualify.png" class="w3-round w3-image" style = "box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="qualify" width="600" height="750">
+    </div>
+  </div>
+  
+</div>
+  
+</body>
+</html>

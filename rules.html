@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rules of Soccer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+    margin-left: -170px;
+}
+.dropdown:hover .content{
+    display: block;
+    
+}
+.dropdown:hover button{
+    background-color: hsl(0, 0%, 70%);
+    background-color: blue;
+}
+.dropdown a:hover{
+    background-color: rgb(61, 53, 53);
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="soccer.html" class="w3-bar-item w3-button">Everything Soccer</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#basics" class="w3-bar-item w3-button">Basics</a>
+      <a href="#gametime" class="w3-bar-item w3-button">Gametime</a>
+      <a href="#penalties" class="w3-bar-item w3-button">Penalties</a>
+      <a href="#fouls" class="w3-bar-item w3-button">Fouls</a>
+      <a href="#cards" class="w3-bar-item w3-button">Cards</a>
+      <a href="#bounds" class="w3-bar-item w3-button">Out-of-Bounds</a>
+      <div class="dropdown">
+        <button style = "margin-left: 10px;">| | |</button>
+        <div class="content">
+            <a href= "club.html">Club Soccer</a>
+            <a href= "international.html">International Soccer</a>
+            <a href="rules.html">Rules of Soccer</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="ruless.jpg" alt="Club Soccer" width="1600" height="800">
+    <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+      <h1 class="w3-xxlarge" style= "color: white;">Rules of Soccer</h1>
+    </div>
+</header>
+
+
+<!--new-->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- about-->
+  <div style = "display: table; clear: both; padding-top: 64px!important; padding-bottom: 64px!important;" id="basics">
+    <div class="w3-col m6 w3-padding-large w3-hide-small" style = "width: 50%">
+     <img src="offside.jpg" style = " margin-top: 40px; border-radius: 4px; max-width: 100%; height: auto; box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="About" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">Basics & Offside Rule</h1>
+      <p class="w3-large">In soccer, there can be a total of 22 players, with 11 players on each side in the game. The primary objective is to score goals, where scoring more goals than the opponent typically means winning. In terms of goals, a important rule that applies to them is the offside rule. A general summary of the rule is that at the moment when a player receives a pass, the parts of their body that can touch the ball must be behind 2 of the defenders (the goalkeeper counts as one of these defenders) of the opposing team. The parts of the body that can touch the ball include any part of the body besides the part of arm from the bottom of the shoulder to the fingers. If an offside occurence happens during the build up to a goal, that goal will be disallowed.</p>
+      
+    </div>
+  </div>
+  
+  <!--leagues-->
+  <div class="w3-row w3-padding-64" id="gametime">
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">Gametime & Substitutes</h1>
+      <p class="w3-large">A typical soccer game lasts for 90 minutes, consisting of two 45-minute periods of gameplay called "halves". During these halves, substitutions (where other players come on for another player) can be made for a maximum of 5 substitutions. After the first half, there is a 15 minute half-time break. But before that, at the end of the half, there a couple of minutes of time added called stoppage time to account for time wasted from fouls, injuries, etc. This stoppage time happens at each half. In a knockout stage game where one team has to be eliminated, if the game is still tied after 90 minutes, the game goes to extra time - a total of 30 added minutes with 15 minute halves. During extra time, an additional substitution can be made for a maximum of 6 total subsitutions. After the 120 minutes of play time with the extra time, if the game is still tied, the game will go to a penalty shootout to decide a winner.</p>
+    </div>
+    
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="time.png" class="w3-round w3-image" style = "margin-top: 70px; box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="Leagues" width="600" height="750">
+    </div>
+  </div>
+
+  <!--teams-->
+  <div class="w3-row w3-padding-64" id="penalties">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="penalty.jpg" class="w3-round w3-image" style = "box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="Teams" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">Penalties</h1>
+      <p class="w3-large">A penalty kick is a special type of kick that happens after a foul. In regular game time, it is given when a regular foul such as handball happens in the 18-yard box called the penalty box. The reward is a penalty kick, where a single player is allowed to take a single shot at goal at the marked penalty spot with only the goalkeeper defending them. During this time, each player must be a minimum of 10 yards away from that player - if an opposing player becomes less than 10 yards away from the player at any point before they take the kick, that is called enchroacement. In that case, the penalty is retaken by the player. In knockout games, after extra time, a penalty shootout occurs with players from each team taking alternatingly taking penalties in this fashion. After 5 penalties from each team, if the number of penalties scored is higher for one than the other, that team wins. Or else, the shootout keeps going until one player from a team fails to score, declaring the other team the winner.</p>
+    </div>
+  </div>
+
+  <!--players-->
+  <div class="w3-row w3-padding-64" id="fouls">
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">Fouls</h1>
+      <p class="w3-large">In soccer, fouls occur when a player violates the rules set by the game. This can involve various actions like tackling from behind, tripping an opponent, or using excessive force. When a foul is committed, the referee stops play and may award a free kick to the opposing team on the basis of the severity of the foul. A free kick is set piece, where every player on the pitch is in a set position. Free kicks are only given in places besides the penalty box. Free kicks come in two main types: direct and indirect.
+
+        Direct Free Kick: This allows the player taking the kick to aim directly at the goal, with the opposition forming a defensive wall at a distance. A goal can be scored directly from a direct free kick.
+        
+        Indirect Free Kick: Before scoring, the ball must touch another player from either team. The kicker cannot score directly from this kick; instead, it's often used for a setup or to advance play.
+        
+        Free kicks can be crucial moments in a match, offering teams opportunities to score or gain an advantage.</p>
+    </div>
+    
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="kick.jpg" class="w3-round w3-image" style = "box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="Players" width="600" height="750">
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64" id="cards">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="cards.jpg" class="w3-round w3-image" style = "box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="Teams" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">Punishment Cards</h1>
+      <p class="w3-large">In soccer, there are 2 colors of cards that serve as warnings or punishments for players. A yellow card is typically given for a harsh foul, an accumulation of multiple fouls, simulation (diving to get the benefits of being fouled), etc. It serves as a warning to players - for, two yellow cards equal getting a red card. The second card is the red card, which is given for very harsh fouls that could cause significant injury, insults to the referee, etc. A player that recieves a straight red card is sent off and is forced to leave the pitch for the rest of the game. Another player cannot sub in for him/her. This therefore leaves their team with a numerical disadvantage because they will be "one man down". That player will also have a 3 match ban in most scenarios.</p>
+    </div>
+  </div>
+  
+  <div class="w3-row w3-padding-64" id="bounds">
+    <div class="w3-col m6 w3-padding-large">
+      <h1 style = "text-decoration: underline;">Out-of-Bounds</h1>
+      <p class="w3-large">In soccer, there are many types of kicks and throws that are given when the ball goes out of bounds. If the ball goes past either of the sidelines by a player, a player from the opposing team gets to "throw-in" (only hands) the ball into the pitch from that point. In terms of the goal line however, there are two types of kicks. If a player makes the ball go past the goal line on their side, the opposing team gets a corner kick. In a corner kick, a player is allowed one kick from the corner post - this kick can be used in many ways such as scoring a direct corner kick, kicking the ball into the penalty box for another player to score, etc. If a player instead makes the ball go past the opponent's goal line, the opposing team gets a goal kick. In this situation, the goalkeeper is allowed one kick, long or short, from their pitch area. From left to right are pictures of a corner kick, throw in, and a goal kick.</p>
+    </div>
+    
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="types.jpg" class="w3-round w3-image" style = "box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);" alt="Leagues" width="600" height="750">
+    </div>
+  </div>
+
+  
+</div>
+  
+</body>
+</html>
